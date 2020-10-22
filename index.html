@@ -48,12 +48,12 @@
     <div class="col_1">
       <span>1 col</span>
     </div>
-    <!-- /row 1 -->
+    <!-- /ROW 1 -->
 
     <div class="col_12">
       <span>12 col</span>
     </div>
-    <!-- /row2 -->
+    <!-- /ROW -->
 
     <div class="col_8">
       <span>8 col</span>
@@ -64,7 +64,7 @@
     <div class="col_2">
       2 col
     </div>
-    <!-- /row 3 -->
+    <!-- /ROW 3 -->
 
     <div class="col_1">
       <span>1 col</span>
@@ -81,18 +81,43 @@
     <div class="col_1">
       <span>1 col</span>
     </div>
-    <!-- /row 4 -->
+    <!-- /ROW 4 -->
 
     <div class="col_6">
 
-    </div>
-    <div class="col_6">
+      <div id="nested_container_left" class="container">
+
+        <div class="col_2 nested">
+          <span>Nested 2 col</span>
+        </div>
+        <div class="col_2 nested">
+          <span>Nested 2 col</span>
+        </div>
+        <div class="col_8 nested">
+          <span>Nested 8 col</span>
+        </div>
+
+      </div>
 
     </div>
-    <!-- /row 5 -->
-    
+    <!-- /NESTED LEFT -->
+
+    <div class="col_6">
+
+      <div id="nested_container_right" class="container">
+        <div class="col_6 nested">
+          <span>Nested 6 col</span>
+        </div>
+        <div class="col_6 nested">
+          <span>Nested 6 col</span>
+        </div>
+      </div>
+
+    </div>
+    <!-- /NESTED RIGHT -->
+    <!-- /ROW 5 -->
+
   </div>
-
-
+  <!-- /CONTAINER -->
 </body>
 </html>

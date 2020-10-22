@@ -1,0 +1,9 @@
+#nested_container_left, #nested_container_right {
+  margin: 5px;
+}
+
+#nested_container_left > .nested, #nested_container_right > .nested {
+  height: 190px;
+  border: 1px solid white;
+  background: #F07F80;
+}
